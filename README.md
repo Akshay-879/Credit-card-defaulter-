@@ -1,6 +1,15 @@
 # Credit card defaulter
+
 ## Description:
-Identifying customers for a bank whether they would default credit-card payments of the bank. This is a binary calssification task performed using tree based model (Decision tree) and ensemble technique (Random Forest). The classification is done based on other independent features such as account type, loan taken, duration, marital status etc. Using the random forest calsssifier's feature importance function, Account duration, age and account month are found out to have most co-relation with the target variable and are the most important features. This project is also an practicle example of how an ensemeble technique overcomes the issue of overfitting that happenes in tree based models.
+
+This project aims to identify customers who are likely to default on credit card payments using a binary classification task. The classification is performed using a decision tree and an ensemble technique (Random Forest), based on independent features such as account type, loan taken, duration, and marital status.
+
+The project utilizes the feature importance function of the Random Forest classifier to identify the most important features that have the most correlation with the target variable. The features identified as the most important are account duration, age, and account month.
+
+One of the key challenges in using tree-based models is the issue of overfitting. This project demonstrates how an ensemble technique like Random Forest overcomes the issue of overfitting by combining multiple decision trees and reducing the variance of the model.
+
+The project involves collecting and preprocessing data related to customer accounts and credit card payments, training and evaluating the decision tree and Random Forest models, and analyzing the feature importance results to identify the most relevant features. The outcome of the project is a reliable and accurate model that can be used to predict credit card payment defaults, helping the bank to manage credit risk and improve financial performance.
+
 
 ### Machine Learning Models:
 1. Decision tree classifier 
